@@ -1,0 +1,36 @@
+body:lang(TC),
+body:lang(SC)
+{
+    #liveGame.BCgames .header-deco:after,
+    #liveGame.BCgames .header-deco:before{
+        width: 105px;
+    }
+    @media (max-width: 575px){
+        #allLiveGame .allLiveGame-main .game-item-wrap .game-item-text h2 {
+            font-size: 15px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #allLiveGame.AllLottery .bottom-deco {
+            width: 250px;
+        }
+    }
+    @media (min-width: 992px){
+        #allLiveGame .bottom-deco {
+            width: 278px;
+        }
+        #allLiveGame.AllLottery .bottom-deco {
+            width: 270px;
+        }
+    }
+    // Medium devices (tablets, 768px and up)
+    @media (orientation: landscape)  and (max-width: 992px) {
+        #SqueezeBaccarat .live-game-main {
+            margin-top: 10rem !important;
+        }
+        .BCgames .live-game-main {
+            margin-top: 11rem !important;
+        }
+    }
+}
